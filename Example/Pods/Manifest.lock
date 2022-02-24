@@ -1,0 +1,16 @@
+PODS:
+  - Zlement (0.1.0)
+
+DEPENDENCIES:
+  - Zlement (from `../`)
+
+EXTERNAL SOURCES:
+  Zlement:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Zlement: b6cb563ece2f447b3e92d8b301a13fa7ff349b44
+
+PODFILE CHECKSUM: 20340eda2df2bdbe28afd54b90903fef5cb38fd3
+
+COCOAPODS: 1.11.2

@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24854FC0DFA9BE703292FC5127064C9B /* Pods-Zlement_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 85D5E6B0ABA85D7239EA121183D5542B /* Pods-Zlement_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48B4EFB3B23690FEC656EF576892A55F /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F0FB8AC0884D99F9A5E0D0836126A9 /* ReplaceMe.m */; };
+		6819681909407609B6D9F14EA39EEF9B /* Pods-Zlement_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0237E47AFA48C46CE347B459FFCF913D /* Pods-Zlement_Example-dummy.m */; };
+		8CCA9C3511E96BE3C4A4607337F37753 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		95728753785EBD15212A539F6CCB6EF1 /* Zlement-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA6F3D043DBF25EC76CE1DCC7878255 /* Zlement-dummy.m */; };
+		AA47C481AA2C45D3DF39F13175FA2EC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B836E2D9F9B078B80CB3CE76BDB23723 /* Zlement-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 79C31FBDB0EEFF284937124795662A6A /* Zlement-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDB4ECB5B43373E91AFCF5D3EF555DCE /* Pods-Zlement_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DEE8830CFD5A9607E45D71FE9DAD8B4A /* Pods-Zlement_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB329641727053BF69368A945273DD94 /* Pods-Zlement_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E1BE19841DD33772B69B5EB1EA7A9E /* Pods-Zlement_Tests-dummy.m */; };
+		F529190F0858C841D485FEE8683FB839 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C507A598F606167F738F3225915E5E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9D8675EFA36407DC9AF898281C1FC0C;
+			remoteInfo = "Pods-Zlement_Example";
+		};
+		FE1623198AA76036209F80C3D2C1D109 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E8C6CD82E1500731D0AD6386A616DDC;
+			remoteInfo = Zlement;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0237E47AFA48C46CE347B459FFCF913D /* Pods-Zlement_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Zlement_Example-dummy.m"; sourceTree = "<group>"; };
+		03F0FB8AC0884D99F9A5E0D0836126A9 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = Zlement/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		149B4D67BB0C01CEF45CA764CC8D90FC /* Pods-Zlement_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Zlement_Example.modulemap"; sourceTree = "<group>"; };
+		21EF1F1892DCD75B7F702205A30B2A5F /* Pods-Zlement_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Zlement_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		32AB138B868371EFB4AECDADC6088C14 /* Pods-Zlement_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Zlement_Example-Info.plist"; sourceTree = "<group>"; };
+		3B85D7804B4CAD916B006F872CFDD878 /* Pods-Zlement_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Zlement_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		404AB41A2A373E1F731BF575E6250B97 /* Zlement.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Zlement.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		66A596159501D89B431D82F27BD0A2C4 /* Pods-Zlement_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Zlement_Example"; path = Pods_Zlement_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68776BA878D181605A9D36BF1B61E657 /* Zlement */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Zlement; path = Zlement.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C6E8171CF6BEB7D6F68D72C3538A4CF /* Pods-Zlement_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Zlement_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		6DA6F3D043DBF25EC76CE1DCC7878255 /* Zlement-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Zlement-dummy.m"; sourceTree = "<group>"; };
+		6EF91487598E7D8D6458E86ECBD60C5D /* Pods-Zlement_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Zlement_Example.release.xcconfig"; sourceTree = "<group>"; };
+		71A2F6BB047A80B7B7BFEE1D7B9D4D8E /* Zlement.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Zlement.release.xcconfig; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		79C31FBDB0EEFF284937124795662A6A /* Zlement-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Zlement-umbrella.h"; sourceTree = "<group>"; };
+		85D5E6B0ABA85D7239EA121183D5542B /* Pods-Zlement_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Zlement_Example-umbrella.h"; sourceTree = "<group>"; };
+		8D796F25BB8BD5D148538EEC63632216 /* Zlement-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Zlement-Info.plist"; sourceTree = "<group>"; };
+		997CCDFF2C644BD505E6A23E422E9650 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9B57B3199DE577D295780B13F4098F46 /* Pods-Zlement_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Zlement_Tests.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AA56B58708E69FAD82A9BEB5FAFC303E /* Pods-Zlement_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Zlement_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B1C27F166B208322BB46AEE740F53064 /* Pods-Zlement_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Zlement_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B6A3A60B8D7A423B5FA3AE65D7329BDA /* Zlement.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Zlement.modulemap; sourceTree = "<group>"; };
+		C15B6300486064F45752EA6FBC5E28FE /* Pods-Zlement_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Zlement_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CA8A288CDC43CF2DD363E0183DB3D6F7 /* Zlement.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Zlement.debug.xcconfig; sourceTree = "<group>"; };
+		D4E1BE19841DD33772B69B5EB1EA7A9E /* Pods-Zlement_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Zlement_Tests-dummy.m"; sourceTree = "<group>"; };
+		D897947DABF7251C70093E524E0C33B6 /* Pods-Zlement_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Zlement_Tests"; path = Pods_Zlement_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC09447A3D189E77BA5B944746FACB56 /* Zlement-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Zlement-prefix.pch"; sourceTree = "<group>"; };
+		DE3EE1850A7E0FED9497D74DCEB58D24 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		DEE8830CFD5A9607E45D71FE9DAD8B4A /* Pods-Zlement_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Zlement_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E7E9E0C1E5DC041CD0A3D484C47D6B27 /* Pods-Zlement_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Zlement_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F266D36103E04918608A1A01D36CDCF8 /* Pods-Zlement_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Zlement_Tests-Info.plist"; sourceTree = "<group>"; };
+		FC88D92023D6829110BCDDE20847FBDF /* Pods-Zlement_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Zlement_Example-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		805910FC6F03B919E84E798B6DDD7195 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CCA9C3511E96BE3C4A4607337F37753 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		977603A0B9A1C9EB91FA747017E4B12B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F529190F0858C841D485FEE8683FB839 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC3A7B76C1789798B8E1DA48D31E0D3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA47C481AA2C45D3DF39F13175FA2EC6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24524314EB96642381E1AB346739B3E2 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DBD69D7B2665A2746B10F2FAFBF71592 /* Zlement */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		2D453DC50E37C0C5DF5467F62BD0B230 /* Pods-Zlement_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9B57B3199DE577D295780B13F4098F46 /* Pods-Zlement_Tests.modulemap */,
+				C15B6300486064F45752EA6FBC5E28FE /* Pods-Zlement_Tests-acknowledgements.markdown */,
+				AA56B58708E69FAD82A9BEB5FAFC303E /* Pods-Zlement_Tests-acknowledgements.plist */,
+				D4E1BE19841DD33772B69B5EB1EA7A9E /* Pods-Zlement_Tests-dummy.m */,
+				F266D36103E04918608A1A01D36CDCF8 /* Pods-Zlement_Tests-Info.plist */,
+				DEE8830CFD5A9607E45D71FE9DAD8B4A /* Pods-Zlement_Tests-umbrella.h */,
+				B1C27F166B208322BB46AEE740F53064 /* Pods-Zlement_Tests.debug.xcconfig */,
+				21EF1F1892DCD75B7F702205A30B2A5F /* Pods-Zlement_Tests.release.xcconfig */,
+			);
+			name = "Pods-Zlement_Tests";
+			path = "Target Support Files/Pods-Zlement_Tests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		61464BF6669B058A730C63A1C9340E9C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				997CCDFF2C644BD505E6A23E422E9650 /* LICENSE */,
+				DE3EE1850A7E0FED9497D74DCEB58D24 /* README.md */,
+				404AB41A2A373E1F731BF575E6250B97 /* Zlement.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		695248041FDC47808C829F6148764692 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9D31EA53E4AFEC6AF3A12B59B8498BE /* Pods-Zlement_Example */,
+				2D453DC50E37C0C5DF5467F62BD0B230 /* Pods-Zlement_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		800D7E1DFD58C4C309E46DDF5A0DF20C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6A3A60B8D7A423B5FA3AE65D7329BDA /* Zlement.modulemap */,
+				6DA6F3D043DBF25EC76CE1DCC7878255 /* Zlement-dummy.m */,
+				8D796F25BB8BD5D148538EEC63632216 /* Zlement-Info.plist */,
+				DC09447A3D189E77BA5B944746FACB56 /* Zlement-prefix.pch */,
+				79C31FBDB0EEFF284937124795662A6A /* Zlement-umbrella.h */,
+				CA8A288CDC43CF2DD363E0183DB3D6F7 /* Zlement.debug.xcconfig */,
+				71A2F6BB047A80B7B7BFEE1D7B9D4D8E /* Zlement.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Zlement";
+			sourceTree = "<group>";
+		};
+		99A7F0654D19368CC39D25ADDD223321 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66A596159501D89B431D82F27BD0A2C4 /* Pods-Zlement_Example */,
+				D897947DABF7251C70093E524E0C33B6 /* Pods-Zlement_Tests */,
+				68776BA878D181605A9D36BF1B61E657 /* Zlement */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9D31EA53E4AFEC6AF3A12B59B8498BE /* Pods-Zlement_Example */ = {
+			isa = PBXGroup;
+			children = (
+				149B4D67BB0C01CEF45CA764CC8D90FC /* Pods-Zlement_Example.modulemap */,
+				E7E9E0C1E5DC041CD0A3D484C47D6B27 /* Pods-Zlement_Example-acknowledgements.markdown */,
+				3B85D7804B4CAD916B006F872CFDD878 /* Pods-Zlement_Example-acknowledgements.plist */,
+				0237E47AFA48C46CE347B459FFCF913D /* Pods-Zlement_Example-dummy.m */,
+				FC88D92023D6829110BCDDE20847FBDF /* Pods-Zlement_Example-frameworks.sh */,
+				32AB138B868371EFB4AECDADC6088C14 /* Pods-Zlement_Example-Info.plist */,
+				85D5E6B0ABA85D7239EA121183D5542B /* Pods-Zlement_Example-umbrella.h */,
+				6C6E8171CF6BEB7D6F68D72C3538A4CF /* Pods-Zlement_Example.debug.xcconfig */,
+				6EF91487598E7D8D6458E86ECBD60C5D /* Pods-Zlement_Example.release.xcconfig */,
+			);
+			name = "Pods-Zlement_Example";
+			path = "Target Support Files/Pods-Zlement_Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				24524314EB96642381E1AB346739B3E2 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				99A7F0654D19368CC39D25ADDD223321 /* Products */,
+				695248041FDC47808C829F6148764692 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DBD69D7B2665A2746B10F2FAFBF71592 /* Zlement */ = {
+			isa = PBXGroup;
+			children = (
+				03F0FB8AC0884D99F9A5E0D0836126A9 /* ReplaceMe.m */,
+				61464BF6669B058A730C63A1C9340E9C /* Pod */,
+				800D7E1DFD58C4C309E46DDF5A0DF20C /* Support Files */,
+			);
+			name = Zlement;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0015D59ECCBDDF77454DF1B947F790D2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24854FC0DFA9BE703292FC5127064C9B /* Pods-Zlement_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A749502F952089878576EF828D9FD930 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDB4ECB5B43373E91AFCF5D3EF555DCE /* Pods-Zlement_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B07ED0A663BDB672514274CD6D85A7BE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B836E2D9F9B078B80CB3CE76BDB23723 /* Zlement-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1E8C6CD82E1500731D0AD6386A616DDC /* Zlement */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 597C5839600AC6100EEA7451CBB6D227 /* Build configuration list for PBXNativeTarget "Zlement" */;
+			buildPhases = (
+				B07ED0A663BDB672514274CD6D85A7BE /* Headers */,
+				C50B5D762CDF98D5DA4BCC601DF2F8AA /* Sources */,
+				977603A0B9A1C9EB91FA747017E4B12B /* Frameworks */,
+				1803BCE05B39233C1880441341C6E648 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Zlement;
+			productName = Zlement;
+			productReference = 68776BA878D181605A9D36BF1B61E657 /* Zlement */;
+			productType = "com.apple.product-type.framework";
+		};
+		B7F73EACFA74CC9F5E69116EC3D502DB /* Pods-Zlement_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 924180799FFE507DA4234E526E9704F5 /* Build configuration list for PBXNativeTarget "Pods-Zlement_Tests" */;
+			buildPhases = (
+				A749502F952089878576EF828D9FD930 /* Headers */,
+				0688BE081741C189C0E0F4D0961800B6 /* Sources */,
+				805910FC6F03B919E84E798B6DDD7195 /* Frameworks */,
+				6A1CB70F3A68506217FC5FAB35DAC95C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBEB8E22790DA58F1024F850CC9D8E7D /* PBXTargetDependency */,
+			);
+			name = "Pods-Zlement_Tests";
+			productName = Pods_Zlement_Tests;
+			productReference = D897947DABF7251C70093E524E0C33B6 /* Pods-Zlement_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		D9D8675EFA36407DC9AF898281C1FC0C /* Pods-Zlement_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C11C4B5E965FEEA47485393F0ACCF91 /* Build configuration list for PBXNativeTarget "Pods-Zlement_Example" */;
+			buildPhases = (
+				0015D59ECCBDDF77454DF1B947F790D2 /* Headers */,
+				B95DAD9BE06300AAC496267CA0E54150 /* Sources */,
+				BC3A7B76C1789798B8E1DA48D31E0D3D /* Frameworks */,
+				829BAC35AB6A6D23F8A186F5EFE68F3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA4FF23CBE35630F6BA45CED5262DF5B /* PBXTargetDependency */,
+			);
+			name = "Pods-Zlement_Example";
+			productName = Pods_Zlement_Example;
+			productReference = 66A596159501D89B431D82F27BD0A2C4 /* Pods-Zlement_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 99A7F0654D19368CC39D25ADDD223321 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9D8675EFA36407DC9AF898281C1FC0C /* Pods-Zlement_Example */,
+				B7F73EACFA74CC9F5E69116EC3D502DB /* Pods-Zlement_Tests */,
+				1E8C6CD82E1500731D0AD6386A616DDC /* Zlement */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1803BCE05B39233C1880441341C6E648 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A1CB70F3A68506217FC5FAB35DAC95C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		829BAC35AB6A6D23F8A186F5EFE68F3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0688BE081741C189C0E0F4D0961800B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB329641727053BF69368A945273DD94 /* Pods-Zlement_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B95DAD9BE06300AAC496267CA0E54150 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6819681909407609B6D9F14EA39EEF9B /* Pods-Zlement_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C50B5D762CDF98D5DA4BCC601DF2F8AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48B4EFB3B23690FEC656EF576892A55F /* ReplaceMe.m in Sources */,
+				95728753785EBD15212A539F6CCB6EF1 /* Zlement-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA4FF23CBE35630F6BA45CED5262DF5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Zlement;
+			target = 1E8C6CD82E1500731D0AD6386A616DDC /* Zlement */;
+			targetProxy = FE1623198AA76036209F80C3D2C1D109 /* PBXContainerItemProxy */;
+		};
+		CBEB8E22790DA58F1024F850CC9D8E7D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Zlement_Example";
+			target = D9D8675EFA36407DC9AF898281C1FC0C /* Pods-Zlement_Example */;
+			targetProxy = 2C507A598F606167F738F3225915E5E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3E9B17B6B513FFDA8B2FDAF86A58D9F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EF91487598E7D8D6458E86ECBD60C5D /* Pods-Zlement_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Zlement_Example/Pods-Zlement_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Zlement_Example/Pods-Zlement_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8E47556C0E3A69188E9989D2783AE538 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C6E8171CF6BEB7D6F68D72C3538A4CF /* Pods-Zlement_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Zlement_Example/Pods-Zlement_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Zlement_Example/Pods-Zlement_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B8FF4E5744C77798F2E6A36C8A9A0CDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA8A288CDC43CF2DD363E0183DB3D6F7 /* Zlement.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Zlement/Zlement-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Zlement/Zlement-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Zlement/Zlement.modulemap";
+				PRODUCT_MODULE_NAME = Zlement;
+				PRODUCT_NAME = Zlement;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F19CD4610380D092A6FB46443C5961A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21EF1F1892DCD75B7F702205A30B2A5F /* Pods-Zlement_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Zlement_Tests/Pods-Zlement_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Zlement_Tests/Pods-Zlement_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F9AA8B2F6E83EB17159EAE6C82FD045C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1C27F166B208322BB46AEE740F53064 /* Pods-Zlement_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Zlement_Tests/Pods-Zlement_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Zlement_Tests/Pods-Zlement_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FAE6F37A17EE33660CD405B8CE38FC98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71A2F6BB047A80B7B7BFEE1D7B9D4D8E /* Zlement.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Zlement/Zlement-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Zlement/Zlement-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Zlement/Zlement.modulemap";
+				PRODUCT_MODULE_NAME = Zlement;
+				PRODUCT_NAME = Zlement;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C11C4B5E965FEEA47485393F0ACCF91 /* Build configuration list for PBXNativeTarget "Pods-Zlement_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E47556C0E3A69188E9989D2783AE538 /* Debug */,
+				3E9B17B6B513FFDA8B2FDAF86A58D9F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		597C5839600AC6100EEA7451CBB6D227 /* Build configuration list for PBXNativeTarget "Zlement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8FF4E5744C77798F2E6A36C8A9A0CDA /* Debug */,
+				FAE6F37A17EE33660CD405B8CE38FC98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		924180799FFE507DA4234E526E9704F5 /* Build configuration list for PBXNativeTarget "Pods-Zlement_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9AA8B2F6E83EB17159EAE6C82FD045C /* Debug */,
+				F19CD4610380D092A6FB46443C5961A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
