@@ -27,3 +27,9 @@ lzackx, lzackx@lzackx.com
 ## License
 
 Zlement is available under the MIT license. See the LICENSE file for more info.
+
+
+## Reference
+
+1. [优化UITableViewCell高度计算的那些事](http://blog.sunnyxx.com/2015/05/17/cell-height-calculation/)
+2. [UITableViewDynamicLayoutCacheHeight](https://github.com/liangdahong/UITableViewDynamicLayoutCacheHeight)
