@@ -10,6 +10,11 @@
 #endif
 #endif
 
+#import "UITableView+ZDynamicLayout.h"
+#import "UITableView+ZPrivate.h"
+#import "UITableViewCell+ZDynamicLayout.h"
+#import "UITableViewDynamicLayoutCacheHeight.h"
+#import "UITableViewHeaderFooterView+ZDynamicLayout.h"
 
 FOUNDATION_EXPORT double ZlementVersionNumber;
 FOUNDATION_EXPORT const unsigned char ZlementVersionString[];

@@ -7,27 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07A1366572019097D117F95E9AD819CB /* Zlement-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 11A464EBB00C7BEFBEB9D6AD7D72B12C /* Zlement-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10C4A0936159C1FC89B6E63F8A12307C /* UITableView+ZPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE52297493C14F1FDD920A36F764FE3 /* UITableView+ZPrivate.m */; };
 		24854FC0DFA9BE703292FC5127064C9B /* Pods-Zlement_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 85D5E6B0ABA85D7239EA121183D5542B /* Pods-Zlement_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		48B4EFB3B23690FEC656EF576892A55F /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F0FB8AC0884D99F9A5E0D0836126A9 /* ReplaceMe.m */; };
+		2DB04CB1986DEA745A2E8C7A9D882223 /* UITableViewDynamicLayoutCacheHeight.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C0B34DDCF5F3475E1ED440C3CBCF8F5 /* UITableViewDynamicLayoutCacheHeight.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3043CB133A2A0A17632A91B5A0723319 /* UITableView+ZDynamicLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 57312837C1059516AF16594F426D5B7D /* UITableView+ZDynamicLayout.m */; };
+		499BCD4B4E0333CB7F0142714A1EA9FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		664CF9ADF8D1A5E00C26CAD432DEB81B /* Zlement-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F2E22FD3B1C7287979D8D212113714 /* Zlement-dummy.m */; };
+		66D4FAF3DB6A9305FFAF4307CF56C6A9 /* UITableView+ZDynamicLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FA226A39877B535F276B39D4B50DB2D /* UITableView+ZDynamicLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6819681909407609B6D9F14EA39EEF9B /* Pods-Zlement_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0237E47AFA48C46CE347B459FFCF913D /* Pods-Zlement_Example-dummy.m */; };
-		8CCA9C3511E96BE3C4A4607337F37753 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		95728753785EBD15212A539F6CCB6EF1 /* Zlement-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA6F3D043DBF25EC76CE1DCC7878255 /* Zlement-dummy.m */; };
-		AA47C481AA2C45D3DF39F13175FA2EC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		B836E2D9F9B078B80CB3CE76BDB23723 /* Zlement-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 79C31FBDB0EEFF284937124795662A6A /* Zlement-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79D6CB0C6C636AA2E950CC1388A1C9E5 /* UITableViewCell+ZDynamicLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 534913AAA107C4088DCFA0DB1F9DBB3A /* UITableViewCell+ZDynamicLayout.m */; };
+		7F6E869DF8F654774B5B913E932C3B42 /* UITableViewCell+ZDynamicLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BE4B90EEF868DFABF225AB2423D63F5 /* UITableViewCell+ZDynamicLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CCA9C3511E96BE3C4A4607337F37753 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		9DF0A4254C3977AE1D0138E49A11B155 /* UITableView+ZPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = EC9BC6E75EFEA17F1D0C929EB40C6AA1 /* UITableView+ZPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A81C92B5EC6F3AB2DF0C798976B8F767 /* UITableViewDynamicLayoutCacheHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 313520A26AF1787A6ADE52274EC48243 /* UITableViewDynamicLayoutCacheHeight.m */; };
+		AA47C481AA2C45D3DF39F13175FA2EC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		BE126A7DC99B58A4C3210BB59BB76E56 /* UITableViewHeaderFooterView+ZDynamicLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 34136D1442D7C2AE2FB55CBF82A8A77D /* UITableViewHeaderFooterView+ZDynamicLayout.m */; };
+		D9187750B40DDE3D3979AFF82D48B570 /* UITableViewHeaderFooterView+ZDynamicLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = DB4A288D38F27AE453A2F3DC82FB0304 /* UITableViewHeaderFooterView+ZDynamicLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DDB4ECB5B43373E91AFCF5D3EF555DCE /* Pods-Zlement_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DEE8830CFD5A9607E45D71FE9DAD8B4A /* Pods-Zlement_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EB329641727053BF69368A945273DD94 /* Pods-Zlement_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E1BE19841DD33772B69B5EB1EA7A9E /* Pods-Zlement_Tests-dummy.m */; };
-		F529190F0858C841D485FEE8683FB839 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F5562DF7C8ABE8D3D4B00382785AEE49 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2C507A598F606167F738F3225915E5E5 /* PBXContainerItemProxy */ = {
+		43890AC9BB5123B6A70FFBBA76C21718 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = D9D8675EFA36407DC9AF898281C1FC0C;
 			remoteInfo = "Pods-Zlement_Example";
 		};
-		FE1623198AA76036209F80C3D2C1D109 /* PBXContainerItemProxy */ = {
+		867C915B32DB7B49A26286B024E7857D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -38,54 +48,65 @@
 
 /* Begin PBXFileReference section */
 		0237E47AFA48C46CE347B459FFCF913D /* Pods-Zlement_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Zlement_Example-dummy.m"; sourceTree = "<group>"; };
-		03F0FB8AC0884D99F9A5E0D0836126A9 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = Zlement/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		11A464EBB00C7BEFBEB9D6AD7D72B12C /* Zlement-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Zlement-umbrella.h"; sourceTree = "<group>"; };
 		149B4D67BB0C01CEF45CA764CC8D90FC /* Pods-Zlement_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Zlement_Example.modulemap"; sourceTree = "<group>"; };
+		15F2E22FD3B1C7287979D8D212113714 /* Zlement-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Zlement-dummy.m"; sourceTree = "<group>"; };
 		21EF1F1892DCD75B7F702205A30B2A5F /* Pods-Zlement_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Zlement_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		28A067A01BD8356185DF501A82354F29 /* Zlement.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Zlement.modulemap; sourceTree = "<group>"; };
+		2FA226A39877B535F276B39D4B50DB2D /* UITableView+ZDynamicLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+ZDynamicLayout.h"; path = "Zlement/Classes/UITableView/UITableView+ZDynamicLayout.h"; sourceTree = "<group>"; };
+		2FCEE29A52B6378227857A52A9925AEB /* Zlement.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Zlement.debug.xcconfig; sourceTree = "<group>"; };
+		313520A26AF1787A6ADE52274EC48243 /* UITableViewDynamicLayoutCacheHeight.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UITableViewDynamicLayoutCacheHeight.m; path = Zlement/Classes/UITableView/UITableViewDynamicLayoutCacheHeight.m; sourceTree = "<group>"; };
 		32AB138B868371EFB4AECDADC6088C14 /* Pods-Zlement_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Zlement_Example-Info.plist"; sourceTree = "<group>"; };
+		34136D1442D7C2AE2FB55CBF82A8A77D /* UITableViewHeaderFooterView+ZDynamicLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableViewHeaderFooterView+ZDynamicLayout.m"; path = "Zlement/Classes/UITableView/UITableViewHeaderFooterView+ZDynamicLayout.m"; sourceTree = "<group>"; };
 		3B85D7804B4CAD916B006F872CFDD878 /* Pods-Zlement_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Zlement_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		404AB41A2A373E1F731BF575E6250B97 /* Zlement.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Zlement.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4300603F7C54E2FF4C9372C44246056C /* Zlement.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Zlement.release.xcconfig; sourceTree = "<group>"; };
+		534913AAA107C4088DCFA0DB1F9DBB3A /* UITableViewCell+ZDynamicLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableViewCell+ZDynamicLayout.m"; path = "Zlement/Classes/UITableView/UITableViewCell+ZDynamicLayout.m"; sourceTree = "<group>"; };
+		57312837C1059516AF16594F426D5B7D /* UITableView+ZDynamicLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+ZDynamicLayout.m"; path = "Zlement/Classes/UITableView/UITableView+ZDynamicLayout.m"; sourceTree = "<group>"; };
 		66A596159501D89B431D82F27BD0A2C4 /* Pods-Zlement_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Zlement_Example"; path = Pods_Zlement_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		68776BA878D181605A9D36BF1B61E657 /* Zlement */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Zlement; path = Zlement.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B1C9DB741B4717E33B928D94305C37D /* Zlement-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Zlement-Info.plist"; sourceTree = "<group>"; };
 		6C6E8171CF6BEB7D6F68D72C3538A4CF /* Pods-Zlement_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Zlement_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		6DA6F3D043DBF25EC76CE1DCC7878255 /* Zlement-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Zlement-dummy.m"; sourceTree = "<group>"; };
 		6EF91487598E7D8D6458E86ECBD60C5D /* Pods-Zlement_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Zlement_Example.release.xcconfig"; sourceTree = "<group>"; };
-		71A2F6BB047A80B7B7BFEE1D7B9D4D8E /* Zlement.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Zlement.release.xcconfig; sourceTree = "<group>"; };
-		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		79C31FBDB0EEFF284937124795662A6A /* Zlement-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Zlement-umbrella.h"; sourceTree = "<group>"; };
+		6FE52297493C14F1FDD920A36F764FE3 /* UITableView+ZPrivate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+ZPrivate.m"; path = "Zlement/Classes/UITableView/UITableView+ZPrivate.m"; sourceTree = "<group>"; };
+		71C13747DA7DEDA61DA0F56846CEC59F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		7BE4B90EEF868DFABF225AB2423D63F5 /* UITableViewCell+ZDynamicLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableViewCell+ZDynamicLayout.h"; path = "Zlement/Classes/UITableView/UITableViewCell+ZDynamicLayout.h"; sourceTree = "<group>"; };
+		7C0B34DDCF5F3475E1ED440C3CBCF8F5 /* UITableViewDynamicLayoutCacheHeight.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UITableViewDynamicLayoutCacheHeight.h; path = Zlement/Classes/UITableView/UITableViewDynamicLayoutCacheHeight.h; sourceTree = "<group>"; };
 		85D5E6B0ABA85D7239EA121183D5542B /* Pods-Zlement_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Zlement_Example-umbrella.h"; sourceTree = "<group>"; };
-		8D796F25BB8BD5D148538EEC63632216 /* Zlement-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Zlement-Info.plist"; sourceTree = "<group>"; };
-		997CCDFF2C644BD505E6A23E422E9650 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		9B57B3199DE577D295780B13F4098F46 /* Pods-Zlement_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Zlement_Tests.modulemap"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AA56B58708E69FAD82A9BEB5FAFC303E /* Pods-Zlement_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Zlement_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		B1C27F166B208322BB46AEE740F53064 /* Pods-Zlement_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Zlement_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		B6A3A60B8D7A423B5FA3AE65D7329BDA /* Zlement.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Zlement.modulemap; sourceTree = "<group>"; };
 		C15B6300486064F45752EA6FBC5E28FE /* Pods-Zlement_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Zlement_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CA8A288CDC43CF2DD363E0183DB3D6F7 /* Zlement.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Zlement.debug.xcconfig; sourceTree = "<group>"; };
+		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		D4E1BE19841DD33772B69B5EB1EA7A9E /* Pods-Zlement_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Zlement_Tests-dummy.m"; sourceTree = "<group>"; };
 		D897947DABF7251C70093E524E0C33B6 /* Pods-Zlement_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Zlement_Tests"; path = Pods_Zlement_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DC09447A3D189E77BA5B944746FACB56 /* Zlement-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Zlement-prefix.pch"; sourceTree = "<group>"; };
-		DE3EE1850A7E0FED9497D74DCEB58D24 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		DB4A288D38F27AE453A2F3DC82FB0304 /* UITableViewHeaderFooterView+ZDynamicLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableViewHeaderFooterView+ZDynamicLayout.h"; path = "Zlement/Classes/UITableView/UITableViewHeaderFooterView+ZDynamicLayout.h"; sourceTree = "<group>"; };
 		DEE8830CFD5A9607E45D71FE9DAD8B4A /* Pods-Zlement_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Zlement_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E2411810D1AEC681F6839F6A478C6317 /* Zlement.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Zlement.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E7E9E0C1E5DC041CD0A3D484C47D6B27 /* Pods-Zlement_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Zlement_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EC9BC6E75EFEA17F1D0C929EB40C6AA1 /* UITableView+ZPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+ZPrivate.h"; path = "Zlement/Classes/UITableView/UITableView+ZPrivate.h"; sourceTree = "<group>"; };
+		F13D5303846093296FC93FD832EDD7F8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F266D36103E04918608A1A01D36CDCF8 /* Pods-Zlement_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Zlement_Tests-Info.plist"; sourceTree = "<group>"; };
+		FBBF67320491A9A5571917B4551695AD /* Zlement-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Zlement-prefix.pch"; sourceTree = "<group>"; };
 		FC88D92023D6829110BCDDE20847FBDF /* Pods-Zlement_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Zlement_Example-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		288286852CCD7F36D2912F2A2D2B08E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				499BCD4B4E0333CB7F0142714A1EA9FA /* Foundation.framework in Frameworks */,
+				F5562DF7C8ABE8D3D4B00382785AEE49 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		805910FC6F03B919E84E798B6DDD7195 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8CCA9C3511E96BE3C4A4607337F37753 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		977603A0B9A1C9EB91FA747017E4B12B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F529190F0858C841D485FEE8683FB839 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,10 +121,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0EA88131D05B94B5DAFA1272FA8CF374 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				28A067A01BD8356185DF501A82354F29 /* Zlement.modulemap */,
+				15F2E22FD3B1C7287979D8D212113714 /* Zlement-dummy.m */,
+				6B1C9DB741B4717E33B928D94305C37D /* Zlement-Info.plist */,
+				FBBF67320491A9A5571917B4551695AD /* Zlement-prefix.pch */,
+				11A464EBB00C7BEFBEB9D6AD7D72B12C /* Zlement-umbrella.h */,
+				2FCEE29A52B6378227857A52A9925AEB /* Zlement.debug.xcconfig */,
+				4300603F7C54E2FF4C9372C44246056C /* Zlement.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Zlement";
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		24524314EB96642381E1AB346739B3E2 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DBD69D7B2665A2746B10F2FAFBF71592 /* Zlement */,
+				3E7837177984236474FE41D1EE1CA879 /* Zlement */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -124,22 +168,24 @@
 			path = "Target Support Files/Pods-Zlement_Tests";
 			sourceTree = "<group>";
 		};
-		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+		3E7837177984236474FE41D1EE1CA879 /* Zlement */ = {
 			isa = PBXGroup;
 			children = (
-				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+				D8F7F1126A59A61006D24FF2FD389823 /* Pod */,
+				0EA88131D05B94B5DAFA1272FA8CF374 /* Support Files */,
+				6C0968DBBFC7411ADCB691D9D03E0162 /* UITableView */,
 			);
-			name = iOS;
+			name = Zlement;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		61464BF6669B058A730C63A1C9340E9C /* Pod */ = {
+		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				997CCDFF2C644BD505E6A23E422E9650 /* LICENSE */,
-				DE3EE1850A7E0FED9497D74DCEB58D24 /* README.md */,
-				404AB41A2A373E1F731BF575E6250B97 /* Zlement.podspec */,
+				EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */,
+				D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */,
 			);
-			name = Pod;
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		695248041FDC47808C829F6148764692 /* Targets Support Files */ = {
@@ -151,19 +197,21 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		800D7E1DFD58C4C309E46DDF5A0DF20C /* Support Files */ = {
+		6C0968DBBFC7411ADCB691D9D03E0162 /* UITableView */ = {
 			isa = PBXGroup;
 			children = (
-				B6A3A60B8D7A423B5FA3AE65D7329BDA /* Zlement.modulemap */,
-				6DA6F3D043DBF25EC76CE1DCC7878255 /* Zlement-dummy.m */,
-				8D796F25BB8BD5D148538EEC63632216 /* Zlement-Info.plist */,
-				DC09447A3D189E77BA5B944746FACB56 /* Zlement-prefix.pch */,
-				79C31FBDB0EEFF284937124795662A6A /* Zlement-umbrella.h */,
-				CA8A288CDC43CF2DD363E0183DB3D6F7 /* Zlement.debug.xcconfig */,
-				71A2F6BB047A80B7B7BFEE1D7B9D4D8E /* Zlement.release.xcconfig */,
+				2FA226A39877B535F276B39D4B50DB2D /* UITableView+ZDynamicLayout.h */,
+				57312837C1059516AF16594F426D5B7D /* UITableView+ZDynamicLayout.m */,
+				EC9BC6E75EFEA17F1D0C929EB40C6AA1 /* UITableView+ZPrivate.h */,
+				6FE52297493C14F1FDD920A36F764FE3 /* UITableView+ZPrivate.m */,
+				7BE4B90EEF868DFABF225AB2423D63F5 /* UITableViewCell+ZDynamicLayout.h */,
+				534913AAA107C4088DCFA0DB1F9DBB3A /* UITableViewCell+ZDynamicLayout.m */,
+				7C0B34DDCF5F3475E1ED440C3CBCF8F5 /* UITableViewDynamicLayoutCacheHeight.h */,
+				313520A26AF1787A6ADE52274EC48243 /* UITableViewDynamicLayoutCacheHeight.m */,
+				DB4A288D38F27AE453A2F3DC82FB0304 /* UITableViewHeaderFooterView+ZDynamicLayout.h */,
+				34136D1442D7C2AE2FB55CBF82A8A77D /* UITableViewHeaderFooterView+ZDynamicLayout.m */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Zlement";
+			name = UITableView;
 			sourceTree = "<group>";
 		};
 		99A7F0654D19368CC39D25ADDD223321 /* Products */ = {
@@ -198,29 +246,20 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				24524314EB96642381E1AB346739B3E2 /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
 				99A7F0654D19368CC39D25ADDD223321 /* Products */,
 				695248041FDC47808C829F6148764692 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		D8F7F1126A59A61006D24FF2FD389823 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				578452D2E740E91742655AC8F1636D1F /* iOS */,
+				71C13747DA7DEDA61DA0F56846CEC59F /* LICENSE */,
+				F13D5303846093296FC93FD832EDD7F8 /* README.md */,
+				E2411810D1AEC681F6839F6A478C6317 /* Zlement.podspec */,
 			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		DBD69D7B2665A2746B10F2FAFBF71592 /* Zlement */ = {
-			isa = PBXGroup;
-			children = (
-				03F0FB8AC0884D99F9A5E0D0836126A9 /* ReplaceMe.m */,
-				61464BF6669B058A730C63A1C9340E9C /* Pod */,
-				800D7E1DFD58C4C309E46DDF5A0DF20C /* Support Files */,
-			);
-			name = Zlement;
-			path = ../..;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +273,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		922560D7512085272B73A2761E3AECD6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66D4FAF3DB6A9305FFAF4307CF56C6A9 /* UITableView+ZDynamicLayout.h in Headers */,
+				9DF0A4254C3977AE1D0138E49A11B155 /* UITableView+ZPrivate.h in Headers */,
+				7F6E869DF8F654774B5B913E932C3B42 /* UITableViewCell+ZDynamicLayout.h in Headers */,
+				2DB04CB1986DEA745A2E8C7A9D882223 /* UITableViewDynamicLayoutCacheHeight.h in Headers */,
+				D9187750B40DDE3D3979AFF82D48B570 /* UITableViewHeaderFooterView+ZDynamicLayout.h in Headers */,
+				07A1366572019097D117F95E9AD819CB /* Zlement-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A749502F952089878576EF828D9FD930 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -242,25 +294,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B07ED0A663BDB672514274CD6D85A7BE /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B836E2D9F9B078B80CB3CE76BDB23723 /* Zlement-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		1E8C6CD82E1500731D0AD6386A616DDC /* Zlement */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 597C5839600AC6100EEA7451CBB6D227 /* Build configuration list for PBXNativeTarget "Zlement" */;
+			buildConfigurationList = 60E32516F469477AAA7F588008BE0804 /* Build configuration list for PBXNativeTarget "Zlement" */;
 			buildPhases = (
-				B07ED0A663BDB672514274CD6D85A7BE /* Headers */,
-				C50B5D762CDF98D5DA4BCC601DF2F8AA /* Sources */,
-				977603A0B9A1C9EB91FA747017E4B12B /* Frameworks */,
-				1803BCE05B39233C1880441341C6E648 /* Resources */,
+				922560D7512085272B73A2761E3AECD6 /* Headers */,
+				3B434591E16427D7850DC764B4BDE105 /* Sources */,
+				288286852CCD7F36D2912F2A2D2B08E0 /* Frameworks */,
+				A73B0BF2D5FA667015337A1011E39E54 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -283,7 +327,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				CBEB8E22790DA58F1024F850CC9D8E7D /* PBXTargetDependency */,
+				52AFF469558E5B3D354E0A877EB9B220 /* PBXTargetDependency */,
 			);
 			name = "Pods-Zlement_Tests";
 			productName = Pods_Zlement_Tests;
@@ -302,7 +346,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				AA4FF23CBE35630F6BA45CED5262DF5B /* PBXTargetDependency */,
+				165875F80E8FEAF2E2C3D80647083F49 /* PBXTargetDependency */,
 			);
 			name = "Pods-Zlement_Example";
 			productName = Pods_Zlement_Example;
@@ -339,13 +383,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1803BCE05B39233C1880441341C6E648 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6A1CB70F3A68506217FC5FAB35DAC95C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -354,6 +391,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		829BAC35AB6A6D23F8A186F5EFE68F3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A73B0BF2D5FA667015337A1011E39E54 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -371,6 +415,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3B434591E16427D7850DC764B4BDE105 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3043CB133A2A0A17632A91B5A0723319 /* UITableView+ZDynamicLayout.m in Sources */,
+				10C4A0936159C1FC89B6E63F8A12307C /* UITableView+ZPrivate.m in Sources */,
+				79D6CB0C6C636AA2E950CC1388A1C9E5 /* UITableViewCell+ZDynamicLayout.m in Sources */,
+				A81C92B5EC6F3AB2DF0C798976B8F767 /* UITableViewDynamicLayoutCacheHeight.m in Sources */,
+				BE126A7DC99B58A4C3210BB59BB76E56 /* UITableViewHeaderFooterView+ZDynamicLayout.m in Sources */,
+				664CF9ADF8D1A5E00C26CAD432DEB81B /* Zlement-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B95DAD9BE06300AAC496267CA0E54150 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -379,29 +436,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C50B5D762CDF98D5DA4BCC601DF2F8AA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				48B4EFB3B23690FEC656EF576892A55F /* ReplaceMe.m in Sources */,
-				95728753785EBD15212A539F6CCB6EF1 /* Zlement-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		AA4FF23CBE35630F6BA45CED5262DF5B /* PBXTargetDependency */ = {
+		165875F80E8FEAF2E2C3D80647083F49 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Zlement;
 			target = 1E8C6CD82E1500731D0AD6386A616DDC /* Zlement */;
-			targetProxy = FE1623198AA76036209F80C3D2C1D109 /* PBXContainerItemProxy */;
+			targetProxy = 867C915B32DB7B49A26286B024E7857D /* PBXContainerItemProxy */;
 		};
-		CBEB8E22790DA58F1024F850CC9D8E7D /* PBXTargetDependency */ = {
+		52AFF469558E5B3D354E0A877EB9B220 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Zlement_Example";
 			target = D9D8675EFA36407DC9AF898281C1FC0C /* Pods-Zlement_Example */;
-			targetProxy = 2C507A598F606167F738F3225915E5E5 /* PBXContainerItemProxy */;
+			targetProxy = 43890AC9BB5123B6A70FFBBA76C21718 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -505,6 +553,37 @@
 			};
 			name = Release;
 		};
+		57417D9C651A117FF855F1C16CCEBDA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4300603F7C54E2FF4C9372C44246056C /* Zlement.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Zlement/Zlement-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Zlement/Zlement-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Zlement/Zlement.modulemap";
+				PRODUCT_MODULE_NAME = Zlement;
+				PRODUCT_NAME = Zlement;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		8E47556C0E3A69188E9989D2783AE538 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6C6E8171CF6BEB7D6F68D72C3538A4CF /* Pods-Zlement_Example.debug.xcconfig */;
@@ -531,36 +610,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B8FF4E5744C77798F2E6A36C8A9A0CDA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CA8A288CDC43CF2DD363E0183DB3D6F7 /* Zlement.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Zlement/Zlement-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Zlement/Zlement-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Zlement/Zlement.modulemap";
-				PRODUCT_MODULE_NAME = Zlement;
-				PRODUCT_NAME = Zlement;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -622,12 +671,41 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
+		};
+		EE17C7E8BB62CFE437F5373D758B93CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FCEE29A52B6378227857A52A9925AEB /* Zlement.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Zlement/Zlement-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Zlement/Zlement-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Zlement/Zlement.modulemap";
+				PRODUCT_MODULE_NAME = Zlement;
+				PRODUCT_NAME = Zlement;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		F19CD4610380D092A6FB46443C5961A0 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -694,37 +772,6 @@
 			};
 			name = Debug;
 		};
-		FAE6F37A17EE33660CD405B8CE38FC98 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 71A2F6BB047A80B7B7BFEE1D7B9D4D8E /* Zlement.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Zlement/Zlement-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Zlement/Zlement-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Zlement/Zlement.modulemap";
-				PRODUCT_MODULE_NAME = Zlement;
-				PRODUCT_NAME = Zlement;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -746,11 +793,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		597C5839600AC6100EEA7451CBB6D227 /* Build configuration list for PBXNativeTarget "Zlement" */ = {
+		60E32516F469477AAA7F588008BE0804 /* Build configuration list for PBXNativeTarget "Zlement" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B8FF4E5744C77798F2E6A36C8A9A0CDA /* Debug */,
-				FAE6F37A17EE33660CD405B8CE38FC98 /* Release */,
+				EE17C7E8BB62CFE437F5373D758B93CF /* Debug */,
+				57417D9C651A117FF855F1C16CCEBDA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

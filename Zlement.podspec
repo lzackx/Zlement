@@ -8,35 +8,26 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Zlement'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of Zlement.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
+  s.version          = '1.0.0'
+  s.summary          = 'Elements for Z'
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
+  Elements for Z
+  DESC
+  
   s.homepage         = 'https://github.com/lzackx/Zlement'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'lzackx' => 'lzackx@lzackx.com' }
   s.source           = { :git => 'https://github.com/lzackx/Zlement.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
   s.ios.deployment_target = '9.0'
-
-  s.source_files = 'Zlement/Classes/**/*'
+  s.default_subspec    = "All"
+  s.subspec "All" do |ss|
+    ss.dependency 'Zlement/UITableView'
+  end
+  s.subspec "UITableView" do |ss|
+    ss.source_files = [
+    'Zlement/Classes/UITableView/*'
+    ]
+    ss.frameworks = 'UIKit'
+  end
   
-  # s.resource_bundles = {
-  #   'Zlement' => ['Zlement/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

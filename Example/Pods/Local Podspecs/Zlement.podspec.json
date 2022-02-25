@@ -1,8 +1,8 @@
 {
   "name": "Zlement",
-  "version": "0.1.0",
-  "summary": "A short description of Zlement.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "1.0.0",
+  "summary": "Elements for Z",
+  "description": "Elements for Z",
   "homepage": "https://github.com/lzackx/Zlement",
   "license": {
     "type": "MIT",
@@ -13,10 +13,27 @@
   },
   "source": {
     "git": "https://github.com/lzackx/Zlement.git",
-    "tag": "0.1.0"
+    "tag": "1.0.0"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "Zlement/Classes/**/*"
+  "default_subspecs": "All",
+  "subspecs": [
+    {
+      "name": "All",
+      "dependencies": {
+        "Zlement/UITableView": [
+
+        ]
+      }
+    },
+    {
+      "name": "UITableView",
+      "source_files": [
+        "Zlement/Classes/UITableView/*"
+      ],
+      "frameworks": "UIKit"
+    }
+  ]
 }

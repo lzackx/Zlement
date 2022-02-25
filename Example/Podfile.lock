@@ -1,5 +1,9 @@
 PODS:
-  - Zlement (0.1.0)
+  - Zlement (1.0.0):
+    - Zlement/All (= 1.0.0)
+  - Zlement/All (1.0.0):
+    - Zlement/UITableView
+  - Zlement/UITableView (1.0.0)
 
 DEPENDENCIES:
   - Zlement (from `../`)
@@ -9,7 +13,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Zlement: b6cb563ece2f447b3e92d8b301a13fa7ff349b44
+  Zlement: b5bff05dc65206c47ba1d88977d6e67f3f839c92
 
 PODFILE CHECKSUM: 20340eda2df2bdbe28afd54b90903fef5cb38fd3
 
